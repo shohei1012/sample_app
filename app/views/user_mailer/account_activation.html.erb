@@ -1,0 +1,9 @@
+<h1>Sample App</h1>
+
+<p>Hi <%= @user.name %>,</p>
+
+<p>
+Welcome to the Sample App! Click on the link below to activate your account:
+</p>
+
+<%= link_to "Activate", "https://197e7f899b2b47e7b1009e8d922cd424.vfs.cloud9.us-east-2.amazonaws.com/account_activations/#{@user.activation_token}/edit?email=#{@user.email}" %>
