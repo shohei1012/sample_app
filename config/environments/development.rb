@@ -53,7 +53,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker  
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'https://197e7f899b2b47e7b1009e8d922cd424.vfs.cloud9.us-east-2.amazonaws.com/users'
+  host = '197e7f899b2b47e7b1009e8d922cd424.vfs.cloud9.us-east-2.amazonaws.com'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
   
   
