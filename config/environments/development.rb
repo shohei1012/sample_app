@@ -56,5 +56,18 @@ Rails.application.configure do
   host = '197e7f899b2b47e7b1009e8d922cd424.vfs.cloud9.us-east-2.amazonaws.com'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
   
-  
+    # sendgrid　API設定
+  #   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.perform_deliveries = true 
+  # config.action_mailer.raise_delivery_errors = true
+  # config.action_mailer.smtp_settings = {
+  #   :enable_starttls_auto => true,
+  #   :address => "smtp.sendgrid.net",
+  #   :port => 587,
+  #   :domain => 'smtp.sendgrid.net',
+  #   :user_name => "apikey",
+  #   :password => "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",
+  #   :authentication => :plain
+  # }
 end
